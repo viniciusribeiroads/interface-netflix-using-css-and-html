@@ -130,7 +130,7 @@ img {
     background: black;
     padding: 4rem 0;
     border-top: 8px solid #222;
-    border-bottom: 8px solid #222;
+
 }
 
 .section h1 {
@@ -166,4 +166,47 @@ img {
     left: 70px;
 
 
+}
+.download .grid > div:first-child {
+    order: 2;
+}
+
+.download .img-tv{
+    order: 1;
+}
+
+.device-pile .video-tv{
+    width: 340px;
+    top: 45px;
+    left: 100px;
+}
+
+
+.criancas .grid > div:first-child {
+    order: 2;
+}
+
+.criancas .img-tv{
+    order: 1;
+}
+
+.footer .form-cta{
+    margin-top: 0;
+
+}
+
+.footer{
+    padding: 4rem 0 2rem 0;
+    border-top: 8px solid #222;
+    background: black;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+}
+
+.footer p {
+    margin-top: 2rem;
+    color: #757575;
+    font-size: 13px;
+    
 }
